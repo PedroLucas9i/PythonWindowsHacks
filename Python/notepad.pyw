@@ -12,6 +12,12 @@ time.sleep(0.5)
 while (contador != len(frase)):
     pyautogui.typewrite(frase[contador])
     contador += 1
-while contador2 != 5:
+pyautogui.hotkey('alt', 'f4')
+pyautogui.hotkey('enter')
+time.sleep(0.2)
+pyautogui.typewrite("bye")
+pyautogui.hotkey('enter')
+time.sleep(0.2)
+while contador2 != 7:
     pyautogui.hotkey('alt', 'f4')
     pyautogui.hotkey('enter')
