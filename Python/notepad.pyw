@@ -14,3 +14,4 @@ while (contador != len(frase)):
     contador += 1
 while contador2 != 5:
     pyautogui.hotkey('alt', 'f4')
+    pyautogui.hotkey('enter')
