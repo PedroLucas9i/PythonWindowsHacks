@@ -21,3 +21,4 @@ time.sleep(0.2)
 while contador2 != 7:
     pyautogui.hotkey('alt', 'f4')
     pyautogui.hotkey('enter')
+    pyautogui.leftClick(637, 600)
